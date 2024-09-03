@@ -1,5 +1,7 @@
 .right {
-  text-align: right;
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
 
 .container {
