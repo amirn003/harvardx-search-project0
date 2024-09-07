@@ -5,38 +5,48 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+      <img src="google-logo.png" alt="Logo" class="logo">
       <div class="right">
         <a href="index.html">Go back to Google Search</a>
       </div>
-      <h1>Advanced Search</h1>
+      <div class="appbar">
+        <label>Advanced Search</label>
+      </div>
+      <div class="vertical-bar"></div>
       <p>Find pages with...</p>
       <!-- <form action="https://www.google.com/advanced_search"> -->
       <form action="https://www.google.com/search">
 
         <div id="table">
           <div class="tr">
-            <label for="i1" class="td">all these words:</label>
+            <label for="i1" class="td align">all these words:</label>
             <input type="text" name="q" class="td" name="as_q"><br><br>
           </div>
 
           <div class="tr">
-            <label for="i2" class="td">this exact word or phrase:</label>
+            <label for="i2" class="td align">this exact word or phrase:</label>
             <input type="text" name="q" class="td" name="as_epq"><br><br>
           </div>
 
           <div class="tr">
-            <label for="i3" class="td">any of these words:</label>
+            <label for="i3" class="td align">any of these words:</label>
             <input type="text" name="q" class="td" name="as_oq"><br><br>
           </div>
 
           <div class="tr">
-            <label for="i4" class="td">none of these words:</label>
+            <label for="i4" class="td align">none of these words:</label>
             <input type="text" name="q" class="td" name="as_eq"><br><br>
           </div>
-        </div>
+
+            <div class="tr">
+              <label for="i5" class="td"></label>
+              <input type="submit" value="Advanced Search" class="button" class="td">
+            </div>
+
+          </div>
 
 
-        <input type="submit" value="Advanced Search" class="button">
+
       </form>
     </body>
 </html>

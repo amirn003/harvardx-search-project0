@@ -1,3 +1,15 @@
+body {
+  font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+p {
+  font-size: 1.0rem;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-weight: 350;
+}
+
 .right {
   position: fixed;
   top: 10px;
@@ -45,7 +57,8 @@
   text-align: center;
   white-space: nowrap;
   outline: 0;
-  margin-left: 34%;
+  /* margin-left: 34%; */
+  float: right;
   border: 1px solid #2f5bb7;
   padding: 0 8px;
   line-height: 100%;
@@ -67,10 +80,30 @@
   display: table-cell;
   padding: 5px;
   width: 200px;
-  margin: 5px;
 }
 
-h1 {
-  margin-top: 50px;
+.align {
+  padding-left: 25px;
+}
+
+.logo {
+  height: 24px;
+  width: 74px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.appbar {
+  margin-top: 40px;
   margin-bottom: 25px;
+  margin-left: 45px;
+  color: #d93025;
+  font-size: 20px;
+}
+
+.vertical-bar {
+  margin-left: -10px;
+  border-bottom: 1px solid #ebebeb;
 }
